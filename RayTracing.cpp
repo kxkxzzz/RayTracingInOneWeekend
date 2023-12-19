@@ -71,10 +71,10 @@ hittable_list random_scene() {
 }
 
 int main() {
-    const int image_width = 600;
-    const int image_height = 300;
-    const int samples_per_pixel = 100;
-    const int max_depth = 50;
+    const int image_width = 800;
+    const int image_height = 400;
+    const int samples_per_pixel = 200;
+    const int max_depth = 100;
     const auto aspect_ratio = double(image_width) / image_height;
 
     std::ofstream fout("out/final.ppm", std::ios::out);
